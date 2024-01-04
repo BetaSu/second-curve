@@ -25,7 +25,7 @@ jobs:
         run: npm run docs:build
 
       - name: Deploy to OSS
-        uses: manyuanrong/setup-ossutil@v1.0
+        uses: manyuanrong/setup-ossutil@v3.0
         with:
           endpoint: ${{ secrets.ENDPOINT }}
           access-key-id: ${{ secrets.ACCESS_KEY_ID }}
