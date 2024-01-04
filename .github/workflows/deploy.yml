@@ -1,0 +1,30 @@
+name: Deploy to OSS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "18" # 选择你的Node.js版本
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run docs:build
+
+      - name: Deploy to OSS
+        uses: hayao-k/alioss-action@v1.0
+        with:
+          args: --bucket ${{ secrets.BUCKET }} --region ${{ secrets.OSS_REGION }} --accessKeyId ${{ secrets.ACCESS_KEY_ID }} --accessKeySecret ${{ secrets.ACCESS_KEY_SECRET }} --localDir ./.vitepress/dist --remoteDir /
