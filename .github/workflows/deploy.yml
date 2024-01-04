@@ -30,4 +30,5 @@ jobs:
           endpoint: ${{ secrets.ENDPOINT }}
           access-key-id: ${{ secrets.ACCESS_KEY_ID }}
           access-key-secret: ${{ secrets.ACCESS_SECRET }}
-      - run: ossutil cp -rf ./.vitepress/dist oss://${{ secrets.BUCKET }}/
+      - name: Deply To OSS
+        run: ossutil cp -rf ./.vitepress/dist oss://${{ secrets.BUCKET }}/
