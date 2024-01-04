@@ -25,6 +25,9 @@ jobs:
         run: npm run docs:build
 
       - name: Deploy to OSS
-        uses: hayao-k/alioss-action@v1.0
+        uses: manyuanrong/setup-ossutil@v1.0
         with:
-          args: --bucket ${{ secrets.BUCKET }} --region ${{ secrets.OSS_REGION }} --accessKeyId ${{ secrets.ACCESS_KEY_ID }} --accessKeySecret ${{ secrets.ACCESS_KEY_SECRET }} --localDir ./.vitepress/dist --remoteDir /
+          endpoint: ${{ secrets.ENDPOINT }}
+          access-key-id: ${{ secrets.ACCESS_KEY_ID }}
+          access-key-secret: ${{ secrets.ACCESS_SECRET }}
+      - run: ossutil cp -rf ./.vitepress/dist oss://${{ secrets.BUCKET }}/
