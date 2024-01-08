@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: 程序员第二曲线手册
-  text: v 0.0.2
+  text: v 0.1.2
   tagline: 提供可上手实操的方法论，帮助程序员个体寻求主业之外的更多可能
   actions:
     - theme: brand

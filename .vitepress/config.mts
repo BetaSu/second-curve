@@ -26,8 +26,10 @@ export default defineConfig({
       {
         text: "理念篇",
         items: [
-          { text: "我该如何理解流量？", link: "/docs/idea/flow.md" },
-          { text: "我该如何理解赚钱？", link: "/docs/idea/money.md" },
+          { text: "如何理解流量？", link: "/docs/idea/flow.md" },
+          { text: "如何理解“卖自己”？", link: "/docs/idea/course.md" },
+          { text: "如何理解付费？", link: "/docs/idea/pay.md" },
+          { text: "第二曲线方法论", link: "/docs/idea/second-curve.md" },
         ],
       },
       {
