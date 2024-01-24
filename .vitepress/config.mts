@@ -17,24 +17,35 @@ export default defineConfig({
       {
         text: "前言",
         items: [
-          { text: "什么是第二曲线？", link: "/docs/preface/introduce.md" },
-          { text: "未来的发展趋势", link: "/docs/preface/future.md" },
-          { text: "第二曲线的特点", link: "/docs/preface/feature.md" },
-          { text: "手册的使用说明", link: "/docs/preface/structure.md" },
+          { text: "什么是第二曲线？", link: "/docs/idea/introduce.md" },
+          {
+            text: "怎么理解“思想转变”？",
+            link: "/docs/idea/thought-change.md",
+          },
+          { text: "第二曲线发展路径", link: "/docs/idea/path.md" },
+          { text: "第二曲线适合谁？", link: "/docs/idea/target-audience.md" },
+          { text: "手册的使用说明", link: "/docs/idea/structure.md" },
         ],
       },
       {
-        text: "理念篇",
+        text: "L1阶段 选择细分领域",
         items: [
-          { text: "如何理解流量？", link: "/docs/idea/flow.md" },
-          { text: "如何理解“卖自己”？", link: "/docs/idea/course.md" },
-          { text: "如何理解付费？", link: "/docs/idea/pay.md" },
-          { text: "第二曲线方法论", link: "/docs/idea/second-curve.md" },
+          { text: "阶段概览", link: "/docs/l1/overview.md" },
+          { text: "1-1 确定大体方向", link: "/docs/l1/l1-1.md" },
+          { text: "1-2 确定方向下的细分领域", link: "/docs/l1/l1-2.md" },
         ],
       },
       {
-        text: "实践篇",
-        items: [{ text: "L1 赛道选择", link: "/docs/practice/working.md" }],
+        text: "L2阶段 验证可行性",
+        items: [{ text: "阶段概览", link: "/docs/l2/overview.md" }],
+      },
+      {
+        text: "Q & A",
+        items: [
+          { text: "答疑", link: "/docs/qa/qa1.md" },
+          // { text: "如何理解“卖自己”？", link: "/docs/idea/course.md" },
+          // { text: "如何理解付费？", link: "/docs/idea/pay.md" },
+        ],
       },
     ],
 
