@@ -37,7 +37,12 @@ export default defineConfig({
       },
       {
         text: "L2阶段 验证可行性",
-        items: [{ text: "阶段概览", link: "/docs/l2/overview.md" }],
+        items: [
+          { text: "阶段概览", link: "/docs/l2/overview.md" },
+          { text: "2-1 时间管理", link: "/docs/l2/l2-1.md" },
+          { text: "2-2 验证可行性", link: "/docs/l2/l2-2.md" },
+          { text: "2-3 提出产品构思", link: "/docs/l2/l2-3.md" },
+        ],
       },
       {
         text: "Q & A",
