@@ -58,4 +58,19 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/BetaSu/second-curve" },
     ],
   },
+  head: [
+    [
+      "script",
+      {
+        async: "",
+        src: "https://hm.baidu.com/hm.js?ab1409dcf9087d7086bb89d6cc5657af",
+      },
+    ],
+    [
+      "script",
+      {},
+      `var _hmt = _hmt || [];  
+  `,
+    ],
+  ],
 });
