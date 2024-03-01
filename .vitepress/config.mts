@@ -18,10 +18,6 @@ export default defineConfig({
         text: "前言",
         items: [
           { text: "什么是第二曲线？", link: "/docs/idea/introduce.md" },
-          {
-            text: "怎么理解“思想转变”？",
-            link: "/docs/idea/thought-change.md",
-          },
           { text: "第二曲线发展路径", link: "/docs/idea/path.md" },
           { text: "第二曲线适合谁？", link: "/docs/idea/target-audience.md" },
           { text: "手册的使用说明", link: "/docs/idea/structure.md" },
@@ -59,6 +55,7 @@ export default defineConfig({
     ],
   },
   head: [
+    ["link", { rel: "icon", href: "/imgs/symbol32.png" }],
     [
       "script",
       {
