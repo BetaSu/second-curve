@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "W.I.N事业工作法",
-  description: "反内卷、高稳定、有前景的职业发展路径",
+  description: "不内卷、高稳定、有前景的职业发展路径",
   appearance: "dark",
   // base: path.resolve(__dirname, "../"),
   themeConfig: {
