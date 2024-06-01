@@ -11,7 +11,7 @@ hero:
       text: 开始阅读
       link: /docs/1-1_why_hard.md
     - theme: alt
-      text: 加入我们
+      text: 动手实践
       link: /docs/about
 
 features:

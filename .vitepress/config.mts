@@ -11,7 +11,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "🏠 首页", link: "/" },
-      { text: "🙋 加入我们", link: "/docs/about.md" },
+      { text: "🙋 动手实践", link: "/docs/about.md" },
     ],
     sidebar: [
       {
@@ -20,6 +20,7 @@ export default defineConfig({
           { text: "职场为什么难？", link: "/docs/1-1_why_hard.md" },
           { text: "如何另辟蹊径？", link: "/docs/1-2_how_new_way.md" },
           { text: "什么是W.I.N事业工作法？", link: "/docs/1-3_what_is_win.md" },
+          // { text: "劝退 劝退 劝退", link: "/docs/1-4_not_you.md" },
         ],
       },
       {
@@ -44,13 +45,13 @@ export default defineConfig({
           // { text: "常见的圈层建设", link: "/docs/working.md" },
         ],
       },
-      {
-        text: "WIN事业工作法",
-        items: [
-          // { text: "以赚取收益为目标", link: "/docs/working.md" },
-          // { text: "以职场晋升为目标", link: "/docs/working.md" },
-        ],
-      },
+      // {
+      //   text: "实践",
+      //   items: [
+      //     // { text: "以赚取收益为目标", link: "/docs/working.md" },
+      //     // { text: "以职场晋升为目标", link: "/docs/working.md" },
+      //   ],
+      // },
     ],
 
     socialLinks: [
