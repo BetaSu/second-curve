@@ -1,7 +1,7 @@
 # W.I.N 事业工作法
 
-提供可实操的方法论，帮助程序员寻求主业之外的发展。
+面向专业人士的“反内卷、高稳定、有前景”的职业发展路径。
 
-<a href="https://symbol.iamkasong.com">点击开始阅读手册</a>
+<a href="https://win.iamkasong.com">点击开始阅读手册</a>
 
 本项目基于[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)许可证发布
