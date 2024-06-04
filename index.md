@@ -20,5 +20,5 @@ features:
   - title: Influence 影响力
     details: 围绕领域智慧打造行业影响力
   - title: Network 圈层
-    details: 运用影响力吸引同行，形成圈层
+    details: 运用影响力吸引受众，形成圈层
 ---

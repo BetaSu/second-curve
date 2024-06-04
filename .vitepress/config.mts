@@ -20,7 +20,7 @@ export default defineConfig({
           { text: "职场为什么难？", link: "/docs/1-1_why_hard.md" },
           { text: "如何另辟蹊径？", link: "/docs/1-2_how_new_way.md" },
           { text: "什么是W.I.N事业工作法？", link: "/docs/1-3_what_is_win.md" },
-          // { text: "劝退 劝退 劝退", link: "/docs/1-4_not_you.md" },
+          // { text: "工作法不是万能的", link: "/docs/1-4_not_you.md" },
         ],
       },
       {
