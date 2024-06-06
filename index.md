@@ -5,7 +5,7 @@ layout: home
 hero:
   name: W.I.N事业工作法
   text:
-  tagline: 不内卷、高稳定、有前景的职业发展路径
+  tagline: 面向专业人士不内卷、高稳定、有前景的职业发展路径
   actions:
     - theme: brand
       text: 开始阅读

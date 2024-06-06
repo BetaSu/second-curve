@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "W.I.N事业工作法",
-  description: "不内卷、高稳定、有前景的职业发展路径",
+  description: "面向专业人士不内卷、高稳定、有前景的职业发展路径",
   appearance: "dark",
   // base: path.resolve(__dirname, "../"),
   themeConfig: {
@@ -34,8 +34,10 @@ export default defineConfig({
       {
         text: "Influence 影响力",
         items: [
-          { text: "影响力的本质", link: "/docs/working.md" },
-          // { text: "常见的影响力工具", link: "/docs/working.md" },
+          // { text: "影响力是什么？", link: "/docs/3-1_what_influence.md" },
+          // { text: "影响力的原料是什么？", link: "/docs/3-2_what_resource.md" },
+          // { text: "影响力如何激发？", link: "/docs/working.md" },
+          // { text: "影响力的目的是什么？", link: "/docs/working.md" },
         ],
       },
       {
@@ -64,7 +66,7 @@ export default defineConfig({
       "script",
       {
         async: "",
-        src: "https://hm.baidu.com/hm.js?ab1409dcf9087d7086bb89d6cc5657af",
+        src: "https://hm.baidu.com/hm.js?9ea46e81badec8a9a2803229a5543e84",
       },
     ],
     [
