@@ -3,22 +3,22 @@
 layout: home
 
 hero:
-  name: W.I.N事业工作法
+  name: W.I.N第二曲线手册
   text:
-  tagline: 面向专业人士不内卷、高稳定、有前景的职业发展路径
+  tagline: 不内卷、高稳定、有前景的事业新出路
   actions:
     - theme: brand
       text: 开始阅读
       link: /docs/1-1_why_hard.md
     - theme: alt
-      text: 动手实践
+      text: 交个朋友
       link: /docs/about
 
 features:
   - title: Wisdom 智慧
-    details: 以“领域专家”为目标，构建领域智慧
+    details: 构建你的领域智慧
   - title: Influence 影响力
-    details: 围绕领域智慧打造行业影响力
+    details: 利用领域智慧激发影响力
   - title: Network 圈层
-    details: 运用影响力吸引受众，形成圈层
+    details: 运用影响力形成围绕你的圈层
 ---

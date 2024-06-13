@@ -3,62 +3,45 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "W.I.N事业工作法",
-  description: "面向专业人士不内卷、高稳定、有前景的职业发展路径",
+  title: "W.I.N第二曲线手册",
+  description: "不内卷、高稳定、有前景的事业新出路",
   appearance: "dark",
   // base: path.resolve(__dirname, "../"),
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: "🏠 首页", link: "/" },
-      { text: "🙋 动手实践", link: "/docs/about.md" },
-    ],
+    nav: [{ text: "🙋 交个朋友", link: "/docs/about.md" }],
     sidebar: [
       {
-        text: "前言",
+        text: "理论篇",
         items: [
           { text: "职场为什么难？", link: "/docs/1-1_why_hard.md" },
-          { text: "如何另辟蹊径？", link: "/docs/1-2_how_new_way.md" },
-          { text: "什么是W.I.N事业工作法？", link: "/docs/1-3_what_is_win.md" },
-          // { text: "工作法不是万能的", link: "/docs/1-4_not_you.md" },
+          { text: "什么是W.I.N第二曲线？", link: "/docs/1-2_what_is_win.md" },
         ],
       },
       {
-        text: "Wisdom 智慧",
+        text: "架构篇",
         items: [
           { text: "什么是领域智慧？", link: "/docs/2-1_what_wisdom.md" },
           { text: "领域智慧从何而来？", link: "/docs/2-2_where_wisdom.md" },
-          { text: "搭建智慧涌现模型", link: "/docs/2-3_build_wisdom.md" },
+          { text: "智慧涌现模型", link: "/docs/2-3_wisdom_framework.md" },
+          { text: "落地智慧涌现模型", link: "/docs/2-4_build_wisdom.md" },
+          { text: "影响力是什么？", link: "/docs/working.md" },
         ],
       },
       {
-        text: "Influence 影响力",
+        text: "实践篇",
         items: [
           // { text: "影响力是什么？", link: "/docs/3-1_what_influence.md" },
-          // { text: "影响力的原料是什么？", link: "/docs/3-2_what_resource.md" },
-          // { text: "影响力如何激发？", link: "/docs/working.md" },
-          // { text: "影响力的目的是什么？", link: "/docs/working.md" },
         ],
       },
-      {
-        text: "Network 圈层",
-        items: [
-          // { text: "什么是圈层？", link: "/docs/working.md" },
-          // { text: "常见的圈层建设", link: "/docs/working.md" },
-        ],
-      },
-      // {
-      //   text: "实践",
-      //   items: [
-      //     // { text: "以赚取收益为目标", link: "/docs/working.md" },
-      //     // { text: "以职场晋升为目标", link: "/docs/working.md" },
-      //   ],
-      // },
     ],
 
     socialLinks: [
       { icon: "github", link: "https://github.com/BetaSu/second-curve" },
     ],
+  },
+  sitemap: {
+    hostname: "https://win.iamkasong.com",
   },
   head: [
     ["link", { rel: "icon", href: "/imgs/symbol32.png" }],
