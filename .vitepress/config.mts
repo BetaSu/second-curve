@@ -14,6 +14,7 @@ export default defineConfig({
       {
         text: "理论篇",
         items: [
+          { text: "前言", link: "/index.md" },
           { text: "职场为什么难？", link: "/docs/1-1_why_hard.md" },
           { text: "什么是W.I.N第二曲线？", link: "/docs/1-2_what_is_win.md" },
         ],
@@ -56,6 +57,17 @@ export default defineConfig({
       "script",
       {},
       `var _hmt = _hmt || [];  
+  `,
+    ],
+    [
+      "script",
+      {},
+      `
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "mrbng43voj");
   `,
     ],
   ],

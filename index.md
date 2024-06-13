@@ -1,24 +1,15 @@
----
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
+# 只适合少数人的作弊秘籍
 
-hero:
-  name: W.I.N第二曲线手册
-  text:
-  tagline: 不内卷、高稳定、有前景的事业新出路
-  actions:
-    - theme: brand
-      text: 开始阅读
-      link: /docs/1-1_why_hard.md
-    - theme: alt
-      text: 交个朋友
-      link: /docs/about
+**有一种成功，是按自己喜欢的方式过一生**。
 
-features:
-  - title: Wisdom 智慧
-    details: 构建你的领域智慧
-  - title: Influence 影响力
-    details: 利用领域智慧激发影响力
-  - title: Network 圈层
-    details: 运用影响力形成围绕你的圈层
----
+这本手册提供了一套方法论，可以帮助一部分人实现上述成功。具体来说，需要同时满足：
+
+1. 有较强学习能力，渴望在某一领域做出成绩
+
+2. 给自己足够耐心，相信长期主义
+
+3. 乐于助人，能从“帮助他人”中收获成就感
+
+客观的讲，这样的人在人群中不超过 30%，所以这并不是为大部分人准备的教科书，而是为少部分人准备的作弊秘籍。
+
+如果你自认是那少部分人，请愉快的往下阅读，你将收获一条不内卷、高稳定、有前景的事业新出路。
