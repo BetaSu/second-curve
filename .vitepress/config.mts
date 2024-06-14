@@ -37,9 +37,9 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/BetaSu/second-curve" },
-    ],
+    // socialLinks: [
+    //   { icon: "github", link: "https://github.com/BetaSu/second-curve" },
+    // ],
   },
   sitemap: {
     hostname: "https://win.iamkasong.com",
