@@ -2,12 +2,14 @@
 
 如果你想：
 
-1. 认识各行各业践行 WIN 的小伙伴
+1. 加入`WIN第二曲线社区`，认识各行各业践行 WIN 的小伙伴，一路同行
 
-2. 围观卡颂关于“不内卷、高稳定、有前景的事业新出路”的最新思考
+2. 参与卡颂每周的直播答疑，解决你践行理论过程中的具体问题
 
-3. `写作中，未完成`送你一份 卡颂践行第二曲线的完整实录（从 0 基础转行到大厂技术专家、从副业 0 收入到在职副业超百万，再到自由职业）
+请通过下方链接加入社区
 
-请加卡颂微信（微信号：kasong000），备注：win
+[🔗 小程序链接](https://ecommunity.h5.xiaoeknow.com/small_community/middle_jump_page/url_658d8fb73e362_KtuUXc)
 
-<img src="/imgs/kasong.png" title="kasong" width="300"/>
+[🔗 H5 链接](https://kyscj.xetlk.com/s/38Ken5)
+
+<img src="/imgs/group_qrcode.png" title="kasong" width="300"/>
